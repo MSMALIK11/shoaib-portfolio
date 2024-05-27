@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+   font-family: "IBM Plex Mono", monospace;
+   background: #27272a;
+   color: #FFFFFF;
+   
+}
+.icon {
+  font-size:1.5em;
+  background-color: #18191f;
+  color: #fff;
+  box-shadow: 2px 2px 2px #00000080, 10px 1px 12px #00000080,
+    2px 2px 10px #00000080, 2px 2px 3px #00000080, inset 2px 2px 10px #00000080,
+    inset 2px 2px 10px #00000080, inset 2px 2px 10px #00000080,
+    inset 2px 2px 10px #00000080;
+
+  animation: animate 3s linear infinite;
+  text-shadow: 0 0 50px #0072ff, 0 0 100px #0072ff, 0 0 150px #0072ff,
+    0 0 200px #0072ff;
+}
+
+
+@keyframes animate {
+  from {
+    filter: hue-rotate(0deg);
+  }
+  to {
+    filter: hue-rotate(360deg);
+  }
+}
+
+#html {
+  animation-delay: 0.3s;
+}
+#TailwindCss {
+  animation-delay: 0.7s;
+}
+#JavaScript {
+  animation-delay: 0.1s;
+}
+#ReactJS {
+  animation-delay: 0.3s;
+}
+#MongoDB {
+  animation-delay: 0.7s;
+}
+#Electron {
+  animation-delay: 0.1s;
+}
+
+.glow {
+ 
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+.work:before{
+  content:"" ;
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background-color: #fD7551;
+  border-radius: 50%;
+  left: 10px;
+z-index:9999;
+}
+.work:after{
+  content:"" ;
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background-color: #A1A1AA;
+  top: 12px;
+  left: 11px;
+
+}
+
+#content-wraper{
+  height: calc( 100vh - 50px);
+  overflow-y: auto;
+  overflow-x: hidden;
+
+}
+#sidebar-wraper{
+   height: calc( 100vh - 50px);
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+#bg-info{
+  background-image: url('./assets/bannarbg.jpg');
+  height: 260px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  border-radius:20px;
+  margin-top: 50px;
+ 
+}

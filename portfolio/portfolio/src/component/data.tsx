@@ -91,15 +91,21 @@ export const skillsList = [
 export const workHistory = [
     {
         id: 1,
-        title: 'Liberin Technologies Pvt Ltd',
-        designation: 'Software Engineer',
-        date: '01/23 - Present'
+        title: 'Botlab Dynamics',
+        designation: ' Frontend Developer',
+        date: '10/06/23 - Present'
     },
     {
         id: 2,
         title: 'Liberin Technologies Pvt Ltd',
+        designation: 'Software Engineer',
+        date: '01/01/23 - 07/06/2024'
+    },
+    {
+        id: 3,
+        title: 'Liberin Technologies Pvt Ltd',
         designation: 'Frontend Developer Intern',
-        date: '04/22 - 01/23'
+        date: '04/07/22 - 01/2023'
     },
 ]
 export const educations = [
@@ -111,8 +117,8 @@ export const educations = [
     },
     {
         id: 2,
-        title: 'Public Inter Collage Sadholi Quadeem',
-        designation: 'Inter',
+        title: 'Public Inter Collage Sadholi kadeem',
+        designation: '12th Grade',
         date: '2017 to 2019'
     },
 ]

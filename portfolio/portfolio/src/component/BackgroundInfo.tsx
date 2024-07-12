@@ -15,7 +15,7 @@ const BackgroundInfo = () => {
                     <Heading text="Background Info" className="!text-md" />
                 </div> */}
                 <div className="fle ms-10 gap-6 mt-[-100px]">
-                    <div className="w-[150px] h-[150px] border-4 border-white rounded-full overflow-hidden">
+                    <div className="w-[150px]  h-[150px] border-4 border-white rounded-full overflow-hidden">
                         <img className="rounded-full" width={150} src={myImage} alt="" />
                     </div>
                     <div className="flex justify-between flex-col mt-2">

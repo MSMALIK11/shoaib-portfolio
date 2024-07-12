@@ -21,8 +21,8 @@ const CertificateAndAward = () => {
                                         <Heading text={item.title} />
                                         <Heading text={item.from} variant='secondary' />
                                         <Heading text={item.issueDate} variant='secondary' />
-                                        <button className=' rounded-lg mt-3  bg-badge text-white px-4 py-1 hover:text-blue-400 hover:scale-105 transition-transform duration-300'><a>Show Credential</a></button>
-                                    </div>
+                                        <button className=' rounded-lg mt-3  bg-badge text-white px-4 py-1 hover:text-blue-400 hover:scale-105 transition-transform duration-300'><a href={item.link} target='_blank'>Show Credential</a></button>
+                                    </div> 
                                 </div>
 
                             </div>

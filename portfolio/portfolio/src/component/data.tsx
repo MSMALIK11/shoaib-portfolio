@@ -1,6 +1,6 @@
 import { IoLogoHtml5, IoLogoCss3 } from "react-icons/io";
 import { BsBootstrapFill } from "react-icons/bs";
-import { RiTailwindCssFill, RiJavascriptFill, RiReactjsFill, RiVuejsLine, RiNodejsFill } from "react-icons/ri";
+import { RiTailwindCssFill, RiJavascriptFill, RiReactjsFill, RiVuejsLine } from "react-icons/ri";
 import { SiMui, SiExpress, SiMongodb, SiElectron } from "react-icons/si";
 import { BiLogoTypescript } from "react-icons/bi";
 import jiraIcon from '../assets/jira.jpg'

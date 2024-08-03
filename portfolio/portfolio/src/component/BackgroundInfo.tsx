@@ -1,8 +1,6 @@
 import Heading from "./shared/Heading";
 import myImage from '../assets/img1.jpg'
 import flagImage from '../assets/flag.svg'
-import bannarBg from '../assets/bannarbg.jpg'
-import { FaPersonShelter } from "react-icons/fa6";
 import { FaLinkedin, FaGithubSquare } from "react-icons/fa";
 import { IoIosLink } from "react-icons/io";
 const BackgroundInfo = () => {

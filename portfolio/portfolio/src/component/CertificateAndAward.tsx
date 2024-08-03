@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Heading from './shared/Heading'
 import { certificates } from './data';
 import { AiFillSafetyCertificate } from "react-icons/ai";

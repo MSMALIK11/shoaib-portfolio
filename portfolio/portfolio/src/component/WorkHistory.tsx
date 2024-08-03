@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { workHistory } from './data'
 import Heading from './shared/Heading'
 interface WorkProp {

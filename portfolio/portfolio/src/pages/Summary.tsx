@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+
 import BackgroundInfo from "../component/BackgroundInfo";
 import ExpertiseAndSkills from "../component/ExpertiseAndSkills";
 import WorkHistory from "../component/WorkHistory";

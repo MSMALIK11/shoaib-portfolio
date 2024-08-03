@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { educations } from './data'
 import Heading from './shared/Heading'
 import { FaGraduationCap } from "react-icons/fa6";

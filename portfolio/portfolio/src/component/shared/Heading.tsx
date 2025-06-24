@@ -1,15 +1,16 @@
-
 interface HeadingProp {
-    variant?: 'primary' | "secondary",
-    text: string,
-    className?: string,
+  variant?: 'primary' | 'secondary';
+  text: string;
+  className?: string;
 }
 
-const Heading = ({ className, text, variant = "primary" }: HeadingProp) => {
-    return (
-        <p className={`${className} ${variant === 'primary' ? 'text-white  text-sm font-bold' : 'text-muted text-xs'
-            } `}>{text}</p>
-    )
-}
+const Heading = ({ className = '', text, variant = 'primary' }: HeadingProp) => {
+  const baseClass =
+    variant === 'primary'
+      ? 'text-[#1e293b] text-sm font-semibold' // slate-800
+      : 'text-slate-500 text-xs font-medium';   // muted secondary
 
-export default Heading
+  return <p className={`${baseClass} ${className}`}>{text}</p>;
+};
+
+export default Heading;

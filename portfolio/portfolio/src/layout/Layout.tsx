@@ -1,22 +1,23 @@
-
-import Summary from '../pages/Summary'
-import Header from './Header'
-import Sidebar from './Sidebar'
+import { useState } from 'react';
+import Footer from '../component/Footer';
+import Summary from '../pages/Summary';
+import Header from './Header';
+import Sidebar from './Sidebar';
 const Layout = () => {
-    return (
-        <div>
-            <div>
-                <Header />
-                <div className='flex ' >
-                    <Sidebar />
-                    <div className='w-full p-4 ' id="content-wraper">
-                        <Summary />
-                    </div>
-                </div>
-            </div>
+  const [drawerOpen, setDrawerOpen] = useState(false);
 
+  return (
+    <div>
+      <Header onToggleSidebar={() => setDrawerOpen(!drawerOpen)} />
+      <div className="flex pt-[60px]">
+        <Sidebar drawerOpen={drawerOpen} setDrawerOpen={setDrawerOpen} />
+        <div className="w-full p-4" id="content-wraper">
+          <Summary />
+          <Footer />
         </div>
-    )
-}
+      </div>
+    </div>
+  );
+};
 
-export default Layout
+export default Layout;
